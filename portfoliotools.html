@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,800&display=swap"
+        rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(247, 240, 240);
+        }
+        .heading{
+            font-size:25px;
+            word-spacing: 4px;
+            padding:5px;
+            margin:5px;
+            width:50%;
+            height:120px;
+            border:2px solid black;
+            margin-left:20%;
+            border-radius:10px;
+            background-color: rgb(244, 244, 188);
+        }
+        .right{
+            font-family: 'Bricolage Grotesque', sans-serif;
+            color: rgb(85, 197, 245);
+            font-size: 75px;
+            position:absolute;
+            left:94%;
+            top:1%;
+            /* filter:invert(); */
+        }
+        .box{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            grid-gap:1rem;
+            margin:50% auto;
+            /* border:2px solid black; */
+            border-radius:10px;
+            width:80%;
+            height:50rem;
+            margin-top:20px;
+        }
+        .tools{
+            border:2px solid black;
+            border-radius:14px;
+            font-size: 1rem;
+        }
+        .head2{
+            display: none;
+        }
+        @media only screen and (max-width: 768px) {
+            .heading{
+                display: none;
+            }
+            .box{
+                grid-template-columns: repeat(1,1fr);
+            }
+            .head2{
+                display:grid;
+            }
+}
+    </style>
+</head>
+<body>
+    <div class="heading">Here are some tools used by me & are great for general use in web-development and designing.Hope these refrences ease your work.</div>
+    <!-- <div class="right"><img src="side.jpg" alt=""style="width:120px;
+        height:180px;"></div> -->
+    <div class="head2">Have a look at these amazing tools</div>
+        <div class="box">
+        <div class="tools" id="toll1"><img src="insta.png" alt="" style="width:70px; height:70px;"><h3>Instagram</h3>this is a great way to intreact with people... <br><br><button>Web&#8599;</button></div>
+        <div class="tools" id="toll2"><img src="insta.png" alt="" style="width:70px; height:70px;"><h3>Instagram</h3>this is a great way to intreact with people... <br><button>Web&#8599;</button></div>
+        <div class="tools" id="toll3"></div>
+        <div class="tools" id="toll4"></div>
+        <div class="tools" id="toll5"></div>
+        <div class="tools" id="toll6"></div>
+        <div class="tools" id="toll7"></div>
+        <div class="tools" id="toll8"></div>
+        <div class="tools" id="toll9"></div>
+    </div>
+</body>
+</html>

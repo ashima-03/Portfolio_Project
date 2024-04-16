@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Portfolio!!!</title>
+    <!-- fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,800&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- external css -->
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" type ="image/x-icon" href="icons8-a-96.png">
+    <!-- for checkbox -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="headingleft" id="home">
+        <div>Ashima</div>
+        <p class="im">Hey it's me,</p><BR>
+        <p class="name">ASHIMA MAKKAR</p>
+        <div class="textmove">
+            <div class="statictext">I'm a</div>
+        </div>
+    </div>
+
+    <div class="headingright">
+        <div class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about" title="About Me">About</a></li>
+                <li><a href="#skills" title="Works I'm skilled in">Skills</a></li>
+                <li><a href="#tools" title="Tools I generally use">Tools</a></li>
+                <li><a href="#contactt" title="Contact me">Contact</a></li>
+            </ul>
+            <label id="icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </label>
+            <div class="textmove">
+                <div class="dytext">
+                    <ul class="dynamictext">
+                        <li><span>STUDENT</span></li>
+                        <li><span>CONTENT CREATOR</span></li>
+                        <li><span>DESIGNER</span></li>
+                        <li><span>FREELANCER</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <img src="photome.jpg" alt="">
+        <h1 class="abthead">About Me</h1>
+        <div class="para">Hello I'm Ashima<br>
+            A student from Chitkara University. I'm interested in Code, Design, and Marketing.
+            I started my Btech in the year 2021, in the middle of a global pandemic, starting with the world of code and
+            design and then moving on to development.
+            Everything had a good pace on start but with time my carelessness overcame my routine and I was unable to
+            manage work with the pace of time.
+            But later then I realised this graduation degree is not that easy and I started to work again.
+            Now I have managed to make a good routine of studies and co-curricaler activities.<br>
+            Currently I want to start work in this field and to offer services as a freelance, collaborating with
+            companies, agencies and brands to help them achieve their goals in an effective and lasting way.
+            If you need me...</div>
+        <div class="container">
+            <span class="bold">Name:</span><span>Ashima</span><br><br>
+            <span class="bold">DOB:</span><span>November 09,2003</span><br><br>
+            <span class="bold">Address:</span><span>Chitkara University</span><br><br>
+            <span class="bold">Email:</span><span>ashimamkkr03@gmail.com</span><br><br>
+            <span class="bold">Phone:</span><span>+91-7056791608</span><br><br>
+            <span><button class="cv">Download CV</button></span>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div>
+            <h1 class="skillhead">Skills</h1>
+        </div>
+        <div class="skill">
+            <div id="col1" class="col">
+                <H2>HTML</H2><img src="75.jpg" alt="" style="width:50%; height:70%; z-index:-1;">
+            </div>
+            <div id="col2" class="col">
+                <H2>CSS</H2><img src="70.jpg" alt="" style="width:55%; height:75%; z-index:-1;">
+            </div>
+            <div id="col3" class="col">
+                <H2>JAVA</H2><img src="60.jpg" alt="" style="width:55%; height:75%; z-index:-1;">
+            </div>
+            <div id="col4" class="col">
+                <H2>DIGITAL ART</H2><img src="90.jpg" alt="" style="width:55%; height:75%; z-index:-1;">
+            </div>
+            <div id="col5" class="col">
+                <H2>VIDEO EDITING</H2><img src="80.jpg" alt="" style="width:55%; height:75%; z-index:-1;">
+            </div>
+            <div id="col6" class="col">
+                <H2>C/C++</H2><img src="65.jpg" alt="" style="width:55%; height:75%; z-index:-1;">
+            </div>
+        </div>
+    </div>
+
+    <div id="tools">
+        <div class="toolhead">
+            <h1>Tools</h1>
+        </div>
+        <div class="toolgrid">
+            <div class="tool" id="tool1"><img src="icons8-fiverr-150.png" alt=""
+                    style="position:relative;bottom:0px;"><b
+                    style="font-size:2.5em; position:relative;top:0px;">FIVERR</b><br>
+                <h3>A great platform for freelancers.</h3>
+            </div>
+            <div class="tool" id="tool2"><img src="icons8-font-awesome-150.png" alt=""
+                    style="position:relative;bottom:0px;"><b
+                    style="font-size:2.5em; position:relative;top:0px; right:0rem;">FONTS AWESOME</b><br>
+                <h3>A website to get code for using icons in html.</h3>
+            </div>
+            <div class="tool" id="tool3"><img src="icons8-inshot-150.png" alt=""
+                    style="position:relative;bottom:0px;"><b
+                    style="font-size:2.5em; position:relative;top:0px;">INSHOT</b><br>
+                <h3>The most basic and used video editing app.</h3>
+            </div>
+            <div class="tool" id="tool4"><img src="icons8-google-fonts-150.png" alt=""
+                    style="position:relative;bottom:0px;"><b style="font-size:45px; position:relative;top:0px;">GOOGLE
+                    FONTS</b><br>
+                <h3>It provides a wide variety of fonts to choose from.</h3>
+            </div>
+            <div class="tool" id="tool5"><img src="icons8-vs-code-150.png" alt=""
+                    style="position:relative;bottom:0px;"><b style="font-size:2.5em; position:relative;top:0px;">VS
+                    CODE</b><br>
+                <h3>One of the most used platform for basic to adv coding.</h3>
+            </div>
+            <div class="tool" id="tool6"><img src="icons8-pinterest-150.png" alt=""
+                    style="position:relative;bottom:0px;"><b
+                    style="font-size:2.5em; position:relative;top:0px;">PINTEREST</b><br>
+                <h3>The perfect app to look for aesthetic images.</h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactt">
+        <div class="contacthead">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="contactgrid">
+            <div class="contact" id="cont1">
+                <h2>Address</h2><br><a href="https://goo.gl/maps/YmXhguE2UnfTiodB7" target="_blank"><i
+                        class="fa fa-address-card fa-4x" aria-hidden="true"></i></a><br>
+                <p style="color:grey">Chitkara University,Rajpura</p>
+            </div>
+            <div class="contact" id="cont2">
+                <h2>Contact Number</h2><br><a href="https://wa.me/7056791608" target="_blank"><i
+                        class="fa fa-phone fa-4x" aria-hidden="true"></i>
+                </a><br>
+                <p style="color:grey">+91-7056791608</p>
+            </div>
+            <div class="contact" id="cont3">
+                <h2>Email Address</h2><br><a href="mailto:ashima0311.be21@chitkara.edu.in" target="_blank"><i
+                        class="fa fa-telegram fa-4x" aria-hidden="true"></i>
+                </a><br>
+                <p style="color:grey">ashimamkkr03@gmail.com</p>
+            </div>
+            <div class="contact" id="cont4">
+                <h2>Instagram</h2><br><a href="https://www.instagram.com/__ashima.mkkr__/" target="_blank"><i
+                        class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+                </a><br>
+                <p style="color:grey"> __ashima.mkkr__</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="boxleft"><img src="bitmojistand.jpg" alt="">
+        </div>
+        <div class="boxright">
+            <!-- <input type="text" name="Name" placeholdeer="Name" style="width:300px; height:30px;"> -->
+            <form action="/action_page.php">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Your Name"
+                    style="width:250px;height:30px; margin:17px auto;"><br>
+                <label for="mail"></label>
+                <input type="text" id="mail" name="mail" placeholder="Your Email"
+                    style="width:250px;height:30px; margin:20px auto;"><br>
+                <label for="sub"></label>
+                <input type="text" id="subject" name="sub" placeholder="Subject"
+                    style="width:250px;height:30px; margin:20px auto;"><br>
+                <textarea name="msg" id="msg" cols="50" rows="7" placeholder="Message"
+                    style="margin:5px auto;"></textarea>
+                <br>
+                <input type="submit" value="Send Message"
+                    style="width:150px;height:40px; margin:20px auto;background-color: rgb(49, 7, 199); border-radius:20px; color:white; font-size:10px; border:0px"><br>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footgrid">
+            <div class="footcol1">
+                <h2>About</h2>This portfolio website in created by Ashima , roll no.-2110990311 for my FEE project
+                assignment... This is a glimpse of my work on HTML & CSS Hope you like the work <i class="fa fa-smile-o"
+                    aria-hidden="true"></i><br><br></a>
+            </div>
+            <div class="footcol2">
+                <h2>Links</h2>
+                <ul style="list-style: none;">
+                    <li><a href="#home" style="color:white">&#8594;Home</a></li><br><br>
+                    <li><a href="#home" style="color:white">&#8594;About</a></li><br><br>
+                    <li><a href="#home" style="color:white">&#8594;Tools</a></li><br><br>
+                    <li><a href="#home" style="color:white">&#8594;Contact</a></li><br><br>
+                </ul>
+            </div>
+            <div class="footcol3">
+                <h2><a href="#skills" style="color:white; text-decoration:none;">Skills</a></h2>
+                <ul>
+                    <li>&#8594;HTML</li><br><br>
+                    <li>&#8594;CSS</li><br><br>
+                    <li>&#8594;Java</li><br><br>
+                    <li>&#8594;Video Editing</i></li><br><br>
+                </ul>
+            </div>
+            <div class="footcol4">
+                <h2>Have a Question?</h2>
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;Chitkara University,Rajpura,<br>Punjab 140401</li><br><br>
+                    <li><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;&nbsp;+91-7056791608</i></li><br><br>
+                    <li><i class="fa fa-envelope" aria-hidden="true">&nbsp;&nbsp;ashimamkkr03@gmail.com</i><br></li><br>
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i> &nbsp; &nbsp;<i class="fa fa-linkedin"aria-hidden="true"></i> &nbsp; &nbsp;</li>
+                </ul>
+            </div>
+            <div class="footline">Copyright©2023 All rights reserved |This project is made by Ashima
+                <i class="fa fa-heart"></i></div>
+        </div>
+    </div>
+
+</body>
+</html>
